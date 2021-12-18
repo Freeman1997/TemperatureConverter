@@ -1,0 +1,21 @@
+.convertTitle {
+  color: #4b5563;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2rem 0;
+}
+
+.convert {
+  display: block;
+  cursor: pointer;
+  width: 40%;
+  font-size: 2ch;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 1ch 1.5ch;
+  color: rgb(77, 75, 75);
+  border: .3px solid rgba(77, 75, 75, 0.192);
+  border-radius: 5px;
+  outline: none;
+  margin: 2.5rem auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
