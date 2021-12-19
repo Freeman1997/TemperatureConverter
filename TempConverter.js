@@ -8,7 +8,7 @@ export default function TempConverter({ scale, onChangeHandler, temp }) {
         <legend>Enter temperature below in {parameter[scale]}:</legend>
         <input
           type="text"
-          className=""
+          className="convert"
           value={temp}
           onChange={(e) => onChangeHandler(e, scale)}
         />

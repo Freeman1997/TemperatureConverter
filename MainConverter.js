@@ -13,17 +13,14 @@ export default function MainConverter() {
     }
 
     const celsius = scaled === 'f' ? converter(tempValue, toCelsius) : tempValue
+    console.log(celsius);
     const fahrenheit = scaled === 'c' ? converter(tempValue, toFahrenheit) : tempValue
 
     return (
         <>  
             <h1 className="convertTitle">Temperature Converter</h1>
             <TempConverter scale="c" onChangeHandler={onChangeHandler} temp={celsius} />
-            <TempConverter
-                scale="f"
-                onChangeHandler={onChangeHandler}
-                temp={fahrenheit}
-            />
+            <TempConverter scale="f" onChangeHandler={onChangeHandler} temp={fahrenheit}/>
             
         </>
     )
