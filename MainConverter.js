@@ -12,8 +12,7 @@ export default function MainConverter() {
         setScaled(scale)
     }
 
-    const celsius = scaled === 'f' ? converter(tempValue, toCelsius) : tempValue
-    console.log(celsius);
+    const celsius = scaled === 'f' ? converter(tempValue, toCelsius) : tempValue    
     const fahrenheit = scaled === 'c' ? converter(tempValue, toFahrenheit) : tempValue
 
     return (
